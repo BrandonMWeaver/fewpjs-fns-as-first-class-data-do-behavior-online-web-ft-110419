@@ -13,7 +13,7 @@ function greet(time)
   {
     return "Good Morning";
   }
-  else if (numTime >= 12 && numTime < 5)
+  else if (numTime >= 12 && numTime < 17)
   {
     return "Good Afternoon";
   }
