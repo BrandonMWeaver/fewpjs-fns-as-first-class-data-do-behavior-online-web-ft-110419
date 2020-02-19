@@ -23,4 +23,7 @@ function greet(time)
   }
 }
 
-/* Write your implementation of displayMessage() */
+function displayMessage(greeting)
+{
+  
+}
