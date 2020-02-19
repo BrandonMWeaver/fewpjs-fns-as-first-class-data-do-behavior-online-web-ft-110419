@@ -25,5 +25,6 @@ function greet(time)
 
 function displayMessage(greeting)
 {
-  let document.getElementById("greeting");
+  let h1 = document.getElementById("greeting");
+  h1.innerHTML = greeting;
 }
