@@ -25,5 +25,5 @@ function greet(time)
 
 function displayMessage(greeting)
 {
-  
+  let document.getElementById("greeting");
 }
