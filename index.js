@@ -6,11 +6,14 @@ function handleClick(e)
 
 function greet(time)
 {
-  if (time < 12)
+  let hour = parseInt(time.split(':')[0]);
+  let minute = parseInt(time.split(':')[1]) / 100;
+  let numTime = hour + minute;
+  if (numTime < 12)
   {
     return "Good Morning";
   }
-  else if (time >= 12 && time < 5)
+  else if (numTime >= 12 && numTime < 5)
   {
     return "Good Afternoon";
   }
